@@ -12,7 +12,7 @@ const AddMovie = () => {
         }, [dispatch]);
 
     const movies = useAppSelector(selectAllMovies);
-
+        console.log({movies})
   return (
     <div>
       {/* Your form and content */}

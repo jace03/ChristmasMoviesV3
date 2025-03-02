@@ -1,11 +1,13 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost/backend/christmasMoviesBackEnd/',
+  baseURL: 'http://localhost/christmasMoviesBackend/christmasMoviesBackEnd',
 });
 
 export const fetchMovies = async () => {
   const response = await api.get('api.php');
+  console.log({response})
+
   return response.data;
 };
 

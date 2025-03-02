@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <h1>Christmas Movies</h1>
-      <AddMovie />
+      {/* <AddMovie /> */}
       <MovieList />
     </div>
   );
